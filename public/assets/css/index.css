@@ -1,0 +1,93 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.table-center{
+    width: 400px;
+    font-size: 2rem;
+    height: 200px;
+
+    background-color: bisque;
+
+    /* display: table-cell;
+    vertical-align: middle;
+    text-align: center; */
+
+    position: relative;
+
+}
+
+
+.inner-div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+
+   /*  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+    /* inset: 0;  top: 0, left:0, bottom:0, right:0  */
+    /* margin: auto;
+    position: absolute; */
+}
+
+.container{
+    background-color: brown;
+}
+
+/* For Testing layouts */
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row wrap; */
+    justify-content: space-between;
+}
+.flex-item{
+    background-color: rgb(244, 66, 188);
+    border: 1px solid black;
+
+    width: 24%;
+}
+
+.gallery{
+    background-color: aqua;
+    height: 100vh;
+}
+
+.special-info{
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.our-schools{
+    background-color: bisque;
+    height: 100vh;
+}
+
+.specialty{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.awards-library{
+    background-color: rgb(185, 138, 228);
+    height: 100vh;
+}
+
+.blog-news{
+    background-color: rgb(169, 206, 239);
+    height: 100vh;
+}
+
+.about{
+    background-color: rgb(5, 42, 75);
+    height: 100vh;
+}
+
+.statistics{
+    background-color: rgb(242, 151, 151);
+    height: 100vh;
+}
