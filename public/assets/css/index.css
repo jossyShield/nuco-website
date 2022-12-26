@@ -52,7 +52,7 @@
     width: 24%;
 }
 
-.gallery{
+.rollover{
     background-color: aqua;
     height: 100vh;
 }
@@ -64,12 +64,12 @@
 
 .our-schools{
     background-color: bisque;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .specialty{
-    background-color: aquamarine;
-    height: 100vh;
+    background-color: #fff;
+    min-height: 100vh;
 }
 
 .awards-library{
@@ -78,8 +78,8 @@
 }
 
 .blog-news{
-    background-color: rgb(169, 206, 239);
-    height: 100vh;
+    background-color: rgb(168, 210, 248);
+    min-height: 100vh;
 }
 
 .about{
@@ -88,6 +88,245 @@
 }
 
 .statistics{
-    background-color: rgb(242, 151, 151);
+    background-color: rgb(255, 255, 255);
     height: 100vh;
+}
+
+/* SPecial Info section */
+
+.special-info{
+    padding: 80px !important;
+}
+
+.special-info .news-updates{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.news-updates .flex-item-1{
+    background-color: bisque;
+    width: 30%;
+}
+.news-updates .flex-item-2{
+    background-color: rgb(21, 157, 39);
+    width: 70%;
+}
+.news-updates > .f-item{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.news-updates > .flex-item-2{
+    color: yellow;
+}
+
+.special-info .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.special-info .flex-item{
+    background-color: rgb(225, 245, 217);
+    border: 3px solid black;
+    border-radius: 40px;
+    margin-top: 20px;
+
+    width: 32%;
+}
+
+.special-info .special.image-card{
+    background-color: aliceblue;
+    height: 30vh;
+
+    border-radius: 40px 40px 0 0;
+}
+
+.flex-item h3,p,pre{
+    text-align: center;
+    
+}
+.flex-item h3{
+font-size: 30px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+
+/* Our Schools section */
+.our-schools .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.our-schools .flex-item{
+    background-color: rgb(225, 245, 217);
+    border: 1px solid black;
+
+    width: 15%;
+}
+
+.our-schools .special.image-card{
+    background-color: aliceblue;
+    min-height: 20vh;
+}
+
+.our-schools .flex-item.preview-content{
+    background-color: rgb(225, 245, 217);
+    border: 1px solid black;
+
+    width: 97%;
+    min-height: 60vh;
+}
+
+
+/* Proprietor Desk Segment */
+
+.proprietor-desk .statement{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* 
+    Team members section
+ */
+.team{
+    background-color: #fcfcfc;
+    
+}
+
+.team .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 40px;
+    
+}
+.team .flex-item{
+    background-color: #fff;
+    border: none;
+    width: 18%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.team .image-round.image-card{
+    border-radius: 50%;
+    border: 5px solid rgb(97, 97, 251);
+    width: 180px;
+    height: 180px;
+    background-color: #fcfcfc;
+    align-content: center;
+    box-shadow: inset 0em ;
+    margin-left: 50px;
+}
+
+/* 
+    Call to Action
+ */
+
+.call-to-action{
+    background-color: rgb(169, 206, 239);
+    /* height: 100vh; */
+}
+
+.call-to-action .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 80px 40px;
+    margin-right: 5%;
+    
+}
+.call-to-action .flex-item{
+    background-color: #fff;
+    border: none;
+    width: 40%;
+    text-align: center;
+    padding: 30px;
+    opacity: 0.9;
+    border-end-end-radius: 50px;
+}
+
+.call-to-action h4{
+    text-align: left;
+}
+
+.container.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.call-to-action .button{
+    background-color: rgb(197, 229, 83);
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 32%;
+    text-align:center;
+    justify-content: center;
+    vertical-align: middle;
+    cursor: pointer;
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+/* 
+Hero page - Rollove Images
+
+ */
+ 
+.rollover .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 80px 40px;
+}
+.rollover .flex-item{
+    background-color: transparent;
+    border: none;
+    width: 40%;
+    text-align: left !important;
+    color: #fff;
+}
+
+.rollover-content-1{
+    position: relative;
+    height: 80vh;
+}
+
+.rollover-content-1 h1{
+    color: #fff !important;
+}
+.rollover-content-1 .middle{
+    text-align: right;
+    margin-top: 15vh;
+    color: pink !important;
+}
+.rollover-content-1 .middle h1{
+    color: pink;
+}
+
+.rollover-content-1 .bottom{
+    position: absolute;
+    bottom: 10px;
+}
+
+.rollover-content-2 p{
+    font-size: 40px;
+    
+    text-align: left;
+    font-weight: 500;
+}
+
+/* Parent Reviews */
+
+.reviews{
+    background-color: rgb(179, 225, 11);
+    min-height: 100vh;
 }

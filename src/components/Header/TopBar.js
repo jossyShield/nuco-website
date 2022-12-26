@@ -15,6 +15,8 @@ const  TopBar = () => {
                         <i className="fa fa-phone font-size-base opacity-60 mr-1"></i> 0703-6325-281 / 0806-1609-469
                     </a>
                     <a href="contact.html" style={{'margin-right': '30px' }}>Live Chat</a>
+                    <a href="portal.html" style={{'margin-right': '30px' }}>Portal</a>
+                    <a href="contact.html" style={{'margin-right': '30px' }}>Calendar</a>
                 </div>
                 <div className="kingster-top-bar-right kingster-item-pdlr">
                     <div className="kingster-top-bar-right-social" >
@@ -22,6 +24,11 @@ const  TopBar = () => {
                         <a href="#" target="_blank" className="gdlr-core-social-network-icon" title="youtube"  ><i className="fa fa-youtube" ></i></a>
                         <a href="#" target="_blank" className="gdlr-core-social-network-icon" title="twitter"  ><i className="fa fa-twitter" ></i></a>
                         <a href="#" target="_blank" className="gdlr-core-social-network-icon" title="instagram"  ><i className="fa fa-instagram" ></i></a>
+                    </div>
+                    <div className="kingster-top-bar-right-social" style={{backgroundColor:'red', marginLeft:'30px', padding:'10px', fontSize:'20px', fontWeight: '600', textAlign: 'center'}}>
+                        <a href="admission.html" target="_blank" className="gdlr-core-social-network-icon" title="facebook"  >
+                            GET ADMISSIONS
+                        </a>
                     </div>
                 </div>
             </div>
