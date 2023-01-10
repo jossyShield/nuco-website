@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Calendar from './pages/Calendar';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BlogPage from './pages/Blog';
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
               <Route path="about" element={<About />} />
               <Route path="contact" element={<Contact />} />
               <Route path="calendar" element={<Calendar />} />
+              <Route path="blog" element={<BlogPage />} />
             </Routes>
           </BrowserRouter>
 

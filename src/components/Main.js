@@ -1,3 +1,4 @@
+import BlogNews from "./Section/BlogNews";
 import MainContact from "./Section/Main/MainContact";
 import MainHome from "./Section/Main/MainHome";
 
@@ -12,6 +13,8 @@ const Main = () => {
     case "/contact":
       main = <MainContact />;
       break;
+    case "/blog":
+      main = <BlogNews />
   }
 
 
