@@ -9,6 +9,7 @@ import Calendar from './pages/Calendar';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BlogPage from './pages/Blog';
+import BlogDetails from './pages/BlogDetails';
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
               <Route path="contact" element={<Contact />} />
               <Route path="calendar" element={<Calendar />} />
               <Route path="blog" element={<BlogPage />} />
+              <Route path="blog/:slug" element={<BlogDetails />} />
             </Routes>
           </BrowserRouter>
 

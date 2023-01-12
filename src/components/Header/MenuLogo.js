@@ -5,7 +5,7 @@ const MenuLogo = () => {
     <div class="kingster-logo  kingster-item-pdlr">
         <div class="kingster-logo-inner">
             <a class="" href="index.html" >
-            <img src="assets/img/nuco_logo.png" alt="" width="100" height="84" title="logo" />
+            <img src={"//"+window.location.host+"/assets/img/nuco_logo.png"}  alt="" width="100" height="84" title="logo" />
             </a>
         </div>
     </div>

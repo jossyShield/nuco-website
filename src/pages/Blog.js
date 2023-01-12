@@ -19,7 +19,7 @@ const BlogPage = () => {
     }
 
     useEffect(()=>{
-        const query = "*[_type=='post']{_id, _createdAt, cover, title}"
+        const query = "*[_type=='post']{_id, _createdAt, cover, title, slug}"
 
         client.fetch(query).then((data) => {
             setPosts(data)
@@ -40,10 +40,12 @@ const BlogPage = () => {
                     <div className="grid grid-cols-1 gap-8 mt-8 md:mt-16 md:grid-cols-2">
                         {posts.map((item)=>
                             <div key={item._id} className="lg:flex">
-                                <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={urlFor(item.cover.asset._ref)} alt="" />
+                                <a href={'/blog/'+item.slug.current}>
+                                    <img className="object-cover w-full h-56 rounded-lg lg:w-64" src={urlFor(item.cover.asset._ref)} alt="" />
+                                </a>
 
                                 <div className="flex flex-col justify-between py-6 lg:mx-6">
-                                    <a href="#" className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                                    <a href={'/blog/'+item.slug.current} className="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
                                         {item.title}
                                     </a>
                                     
