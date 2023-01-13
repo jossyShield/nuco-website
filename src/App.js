@@ -8,14 +8,11 @@ import Contact from './pages/Contact';
 import Calendar from './pages/Calendar';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-<<<<<<< HEAD
 import Admissions from './pages/Admissions';
 import Facilities from './pages/Facilities';
 import SchoolLife from './pages/SchoolLife';
-=======
 import BlogPage from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
->>>>>>> 2ffe89b63ca344ca49428e6d9ec726c755e2511c
 
 function App() {
   

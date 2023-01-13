@@ -1,10 +1,7 @@
-<<<<<<< HEAD
 import MainAbout from "./Section/Main/MainAbout";
 import MainAdmissions from "./Section/Main/MainAdmissions";
 import MainCalendar from "./Section/Main/MainCalendar";
-=======
 import BlogNews from "./Section/BlogNews";
->>>>>>> 2ffe89b63ca344ca49428e6d9ec726c755e2511c
 import MainContact from "./Section/Main/MainContact";
 import MainFacilities from "./Section/Main/MainFacilities";
 import MainHome from "./Section/Main/MainHome";
