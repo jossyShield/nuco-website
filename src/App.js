@@ -8,6 +8,9 @@ import Contact from './pages/Contact';
 import Calendar from './pages/Calendar';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Admissions from './pages/Admissions';
+import Facilities from './pages/Facilities';
+import SchoolLife from './pages/SchoolLife';
 
 function App() {
   
@@ -20,6 +23,9 @@ function App() {
               <Route path="" element={<Home />} />
               <Route path="index" element={<Home />} />
               <Route path="about" element={<About />} />
+              <Route path="admissions" element={<Admissions />} />
+              <Route path="facilities" element={<Facilities />} />
+              <Route path="school-life" element={<SchoolLife />} />
               <Route path="contact" element={<Contact />} />
               <Route path="calendar" element={<Calendar />} />
             </Routes>

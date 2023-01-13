@@ -51,10 +51,19 @@
 
     width: 24%;
 }
+.border-shadow{
+    border-radius: 20px;
+    box-shadow: 0 0 40px -20px;
+}
+.border{
+    border: 1px solid black;
+}
+.upper-case{
+    text-transform: uppercase;
+}
 
 .rollover{
     background-color: aqua;
-    height: 100vh;
 }
 
 .special-info{
@@ -299,6 +308,14 @@ Hero page - Rollove Images
     position: relative;
     height: 80vh;
 }
+.hero-mini.rollover-content-1{
+    position: relative;
+    height: 20vh !important;
+}
+.hero-mini.rollover-content-2{
+    position: relative;
+    height: 20vh !important;
+}
 
 .rollover-content-1 h1{
     color: #fff !important;
@@ -321,7 +338,16 @@ Hero page - Rollove Images
     font-size: 40px;
     
     text-align: left;
+    font-weight: 500; 
+}
+.hero-mini.rollover-content-2 p{
+    font-size: 20px;
+    
+    text-align: left;
     font-weight: 500;
+
+    position: absolute;
+    bottom: -60px;
 }
 
 /* Parent Reviews */
@@ -329,4 +355,84 @@ Hero page - Rollove Images
 .reviews{
     background-color: rgb(179, 225, 11);
     min-height: 100vh;
+}
+
+
+/* 
+Contact Page
+ */
+.contact {
+    background-color: rgb(179, 225, 11);
+    min-height: 100vh;
+}
+
+.contact-info{
+    background-color: aliceblue;
+    height: 100vh;
+    padding: 80px !important;
+}
+
+.contact-info .flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.flex-container .flex-item-ctc{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 50%;
+    
+}
+
+.contact-details{
+    margin: 10px 30px;
+}
+.contact-details .details{
+    display: block;
+}
+
+.contact-social{
+    margin: 10px 50px;
+}
+
+.contact-team .flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 10px;
+    
+}
+.contact-team .flex-item{
+    background-color: #fff;
+    border: none;
+    width: 30%;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.contact-team .image-round.image-card{
+    border-radius: 50%;
+    border: 3px dashed rgb(251, 198, 39);
+    width: 90px;
+    height: 90px;
+    background-color: #fcfcfc;
+    align-content: center;
+    box-shadow: inset 0em ;
+    margin-left: 50px;
+}
+
+.contact-team p{
+    font-size: medium;
+}
+.contact-team .flex-item h4{
+    font-weight: 600;
+    font-size: smaller;
+    margin: 0px;
+}
+.contact-team .title{
+    margin: 10px 30px;
+    font-size: 20px;
+    font-weight: 700 !important;
 }

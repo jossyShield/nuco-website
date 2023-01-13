@@ -1,13 +1,16 @@
-import SpecialInfo from "../SpecialInfo"
-
+import ContactInfo from "../ContactInfo";
+import Hero from "../Hero";
+import SpecialInfo from "../SpecialInfo";
 
 const MainContact = () => {
   return (
     <>
-        {/* Special info - Admission, Notice Board, Vision/Mission */}
-        <SpecialInfo />
+      <Hero />
+      {/* Special info - Admission, Notice Board, Vision/Mission */}
+      
+      <ContactInfo />
     </>
-  )
-}
+  );
+};
 
-export default MainContact
+export default MainContact;

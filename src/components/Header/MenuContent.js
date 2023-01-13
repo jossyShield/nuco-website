@@ -8,7 +8,7 @@ const MenuContent = () => {
             <a href="/index">Home</a>
         </li>
         <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-5227 kingster-normal-menu sfHover">
-          <a href="#" class="sf-with-ul-pre sf-with-ul">About Us</a>
+          <a href="/about" class="sf-with-ul-pre sf-with-ul">About Us</a>
           <ul className="sub-menu" style={{display: 'none'}}>
             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5314" data-size="60">
               <a href="/about/#vision">Our Vision</a>

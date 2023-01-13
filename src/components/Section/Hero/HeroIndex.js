@@ -1,11 +1,11 @@
-import bgImage from "../../assets/img/hero/schoolsp2.avif";
+import bgImage from "../../../assets/img/hero/schoolsp2.avif";
 
-const Rollover = () => {
-  const bgImg = {
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-    backgroundImage: `url(${bgImage})`,
-  };
+const HeroIndex = ({image}) => {
+    const bgImg = {
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat",
+        backgroundImage: `url(${bgImage})`,
+      };
 
   return (
     <section class="rollover" style={bgImg}>
@@ -40,4 +40,4 @@ const Rollover = () => {
   );
 };
 
-export default Rollover;
+export default HeroIndex;
