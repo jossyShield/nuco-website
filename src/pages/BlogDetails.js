@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import moment from "moment";
 import { useParams } from "react-router-dom";
 import { DiscussionEmbed } from "disqus-react";
+import {PortableText} from '@portabletext/react'
 
 const builder = imageUrlBuilder(client)
 
