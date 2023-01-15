@@ -11,7 +11,6 @@ import {PortableText} from '@portabletext/react'
 
 const builder = imageUrlBuilder(client)
 
-
 const BlogDetails = () => {
 
     const [posts, setPosts] = useState([])
@@ -61,7 +60,9 @@ const BlogDetails = () => {
 
             <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
                 <p className="pb-6">
-                    {posts.body}
+                <PortableText
+                        value={posts.body}
+                    />
                 </p>
             </div>
 
