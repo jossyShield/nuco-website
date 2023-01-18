@@ -1,4 +1,5 @@
 
+import HeroAbout from "./Hero/HeroAbout";
 import HeroContact from "./Hero/HeroContact";
 import HeroIndex from "./Hero/HeroIndex";
 import HeroMini from "./Hero/HeroMini";
@@ -19,12 +20,12 @@ const Rollover = () => {
       rollover = <HeroIndex />;
       break;
       case "/about":
-        description = "At Nuco Schools, we help your child develop high self-esteem by"
-        + "providing self-help skills in a safe and nurturing environment"
-        + "that will foster love of learning and intelligence while relating"
-        + "with other individuals."
+        description = "NUCO is the home for academic excellence."
+        + "With thousands of students of different age brackets who have passed through"
+        + "our educational system, NUCO remains the go-to for parents who are concerned "
+        + "about the educational quality of their ward(s). We utilize both the Nierian & Int'l curriculum."
 
-      rollover = <HeroMini title='About Us' description={description} />
+      rollover = <HeroAbout title='About NUCO School' description={description} />
       
       break;
       case "/calendar":

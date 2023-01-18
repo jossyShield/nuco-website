@@ -13,7 +13,7 @@ const MainHome = () => {
       <Hero />
 
       {/* Special info - Admission, Notice Board, Vision/Mission */}
-      <SpecialInfo />
+      <SpecialInfo /> 
 
       {/* Call to action - All our schools */}
       {/* <OurSchools /> */}

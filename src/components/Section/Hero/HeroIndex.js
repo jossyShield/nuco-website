@@ -27,12 +27,12 @@ const HeroIndex = ({image}) => {
         </div>
         <div className="flex-item">
           <div className="rollover-content-2">
-            <p>
+            <div>
               At Nuco Schools, we help your child develop high self-esteem by
               providing self-help skills in a safe and nurturing environment
               that will foster love of learning and intelligence while relating
               with other individuals.
-            </p>
+            </div>
           </div>
         </div>
       </div>

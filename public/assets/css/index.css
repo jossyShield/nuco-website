@@ -304,9 +304,16 @@ Hero page - Rollove Images
     color: #fff;
 }
 
+.rollover .flex-item.hero-about{
+    padding-top: 6% !important;
+}
 .rollover-content-1{
     position: relative;
-    height: 80vh;
+    height: 60vh;
+}
+.rollover-content-1.hero-about{
+    position: relative;
+    height: 40vh;
 }
 .hero-mini.rollover-content-1{
     position: relative;
@@ -335,10 +342,22 @@ Hero page - Rollove Images
 }
 
 .rollover-content-2 p{
-    font-size: 40px;
+    font-size: 25px;
+    line-height: 30px;
     
     text-align: left;
     font-weight: 500; 
+}
+.rollover-content-2 .hero-about{
+    font-size: 30px;
+    line-height: 35px;
+    padding: 50px;
+    
+    text-align: left;
+    font-weight: 500; 
+
+    position: absolute;
+    bottom: -40px;
 }
 .hero-mini.rollover-content-2 p{
     font-size: 20px;
