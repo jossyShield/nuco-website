@@ -30,6 +30,23 @@ const BlogDetails = () => {
         })
     }, [])
 
+    const myPortableTextComponents = {
+        types: {
+          image: ({value}) => <img src={urlFor(value.asset._ref)} style={{width: '100%'}} />
+        },
+      
+        marks: {
+          link: ({children, value}) => {
+            const rel = !value.href.startsWith('/') ? 'noreferrer noopener' : undefined
+            return (
+              <a href={value.href} rel={rel}>
+                {children}
+              </a>
+            )
+          },
+        },
+      }
+
     return (
         <>
         {/* Menu Section */}
@@ -62,6 +79,7 @@ const BlogDetails = () => {
                 <p className="pb-6">
                 <PortableText
                         value={posts.body}
+                        components={myPortableTextComponents}
                     />
                 </p>
             </div>
